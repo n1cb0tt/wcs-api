@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-const argonautes = require('./routes/argonautes.route');
+const argonautes = require('./routes/Argonautes.route');
 
 app.use(cors());
 app.use(bodyParser.json());
